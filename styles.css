@@ -20,9 +20,9 @@ body {
   /* Tagline */
   .tagline {
     font-size: 1.2em;
-    color: #777;
+    color: #ffc7ea;
     margin-top: -10px;
-    font-style: italic;
+
   }
   
   /* Navigation Menu */
@@ -34,7 +34,7 @@ body {
   }
   
   nav a {
-    color: #ff69b4;
+    color: #ffc7ea;
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
