@@ -108,3 +108,18 @@ a:visited {
   text-align: center;
   margin-top: 10px;
 }
+
+/* Centered and Neat Bullet Lists for All Pages */
+ul.centered-list {
+  display: inline-block;
+  text-align: left;
+  list-style-position: inside;
+  margin: 0 auto 20px;
+  padding: 0;
+}
+
+ul.centered-list li {
+  margin-bottom: 10px;
+  font-size: 1em;
+  line-height: 1.6;
+}
