@@ -1,51 +1,62 @@
-/* Basic layout */
+/* Reset + Base Layout */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f4f8;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fef9ff;
     color: #333;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
   }
   
   /* Header */
   header {
-    background-color: #003366;
+    background-color: #ff69b4;
     color: white;
     text-align: center;
     padding: 20px;
-    border-bottom: 5px solid #006699;
+    border-bottom: 5px solid #ff89c4;
+  }
+  
+  /* Tagline */
+  .tagline {
+    font-size: 1.2em;
+    color: #777;
+    margin-top: -10px;
+    font-style: italic;
   }
   
   /* Navigation Menu */
   nav {
-    background-color: #006699;
-    padding: 10px 0;
+    background-color: #ffffff;
+    border-bottom: 2px solid #ddd;
     text-align: center;
+    padding: 10px 0;
   }
   
   nav a {
-    color: white;
+    color: #ff69b4;
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
+    transition: all 0.3s ease;
   }
   
   nav a:hover {
     text-decoration: underline;
+    color: #ff1493;
   }
   
-  /* Main content */
+  /* Main Content */
   main {
     padding: 20px;
-    line-height: 1.6;
   }
   
-  /* Sections */
+  /* Section Styling */
   section {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 15px;
     margin-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   }
   
@@ -53,24 +64,30 @@ body {
   img {
     max-width: 100%;
     border: 2px solid #ccc;
-    border-radius: 8px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
   }
   
   /* Headings */
   h1, h2 {
-    color: #003366;
+    color: #ff1493;
   }
   
   /* Footer */
   footer {
-    background-color: #003366;
+    background-color: #ff69b4;
     color: white;
     text-align: center;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 15px;
+    font-size: 0.9em;
+    margin-top: 40px;
   }
   
-  /* Links */
+  /* Visited Links */
   a:visited {
-    color: #cccccc;
+    color: #999;
   }
